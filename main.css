@@ -90,3 +90,85 @@ button {
     width: 640px;
     height: 568px;
 }
+
+.room-text-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .direction a {
+        font-size: 16px;
+    }
+    .rooms {
+        display: block;
+    }
+    .room-types {
+        width: 540px;
+        height: 468px;
+        margin-left: 40px;
+    }
+    .room-text1 {
+        margin: auto;
+        text-align: center;
+    }
+    .room-text {
+        display: none;
+    }
+    .room-text-mobile {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .room-text-mobile h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+    .intro {
+        margin-bottom: 15px;
+    }
+    .intro h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .intro p {
+        font-size: 16px;
+        text-align: center;
+        margin: auto;
+    }
+    .rooms {
+        display: block;
+    }
+    .room-types {
+        width: 260px;
+        height: 300px;
+        margin-left: 25px;
+    }
+    .room-text1 {
+        margin: auto;
+        margin-right: 30px;
+        text-align: center;
+    }
+    .room-text1 h2 {
+        font-size: 24px;
+    }
+    .room-text1 p {
+        font-size: 16px;
+    }
+    .room-text-mobile {
+        margin: auto;
+        margin-right: 30px;
+        text-align: center;
+    }
+    .room-text-mobile h2 {
+        font-size: 24px;
+    }
+    .room-text-mobile p {
+        font-size: 16px;
+    }
+}
